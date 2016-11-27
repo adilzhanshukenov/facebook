@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jG-C0LS0EeaMd6nCIZ9Vmg" type="PapyrusUMLStateMachineDiagram" name="fbDiagrams.LoginDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_jHxUELS0EeaMd6nCIZ9Vmg" type="2000">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jHxUErS0EeaMd6nCIZ9Vmg" type="2001">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jH-IYLS0EeaMd6nCIZ9Vmg" width="1272" height="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jHxUE7S0EeaMd6nCIZ9Vmg" type="2002">
+      <children xmi:type="notation:Shape" xmi:id="_jH4BwLS0EeaMd6nCIZ9Vmg" type="3000">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jH4o0LS0EeaMd6nCIZ9Vmg" source="RegionAnnotationKey">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jH4o0bS0EeaMd6nCIZ9Vmg" key="RegionZoneKey" value=""/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_jH4BwrS0EeaMd6nCIZ9Vmg" type="3002">
+          <children xmi:type="notation:Shape" xmi:id="_jIBywLS0EeaMd6nCIZ9Vmg" type="8000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIBywrS0EeaMd6nCIZ9Vmg" type="8001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jIByw7S0EeaMd6nCIZ9Vmg" x="25" y="3"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIByxLS0EeaMd6nCIZ9Vmg" type="8002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jIByxbS0EeaMd6nCIZ9Vmg" x="25" y="-10"/>
+            </children>
+            <element xmi:type="uml:Pseudostate" href="facebook.x.model.uml#_jByA1bS0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIBywbS0EeaMd6nCIZ9Vmg" x="20" y="44" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jIK8sLS0EeaMd6nCIZ9Vmg" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIK8srS0EeaMd6nCIZ9Vmg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIUGoLS0EeaMd6nCIZ9Vmg" width="72" height="20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIK8s7S0EeaMd6nCIZ9Vmg" type="19003">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jIK8tLS0EeaMd6nCIZ9Vmg" x="40"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIK8tbS0EeaMd6nCIZ9Vmg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIK8trS0EeaMd6nCIZ9Vmg" y="20" width="72" height="28"/>
+            </children>
+            <element xmi:type="uml:State" href="facebook.x.model.uml#_jByn4rS0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIK8sbS0EeaMd6nCIZ9Vmg" x="764" y="28" width="72" height="48"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jIV70LS0EeaMd6nCIZ9Vmg" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIV70rS0EeaMd6nCIZ9Vmg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIfFwLS0EeaMd6nCIZ9Vmg" width="80" height="20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIV707S0EeaMd6nCIZ9Vmg" type="19003">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jIV71LS0EeaMd6nCIZ9Vmg" x="40"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIV71bS0EeaMd6nCIZ9Vmg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIV71rS0EeaMd6nCIZ9Vmg" y="20" width="80" height="28"/>
+            </children>
+            <element xmi:type="uml:State" href="facebook.x.model.uml#_jByn5LS0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIV70bS0EeaMd6nCIZ9Vmg" x="756" y="140" width="80" height="48"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jIg68LS0EeaMd6nCIZ9Vmg" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIg68rS0EeaMd6nCIZ9Vmg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIqE4LS0EeaMd6nCIZ9Vmg" width="72" height="20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIg687S0EeaMd6nCIZ9Vmg" type="19003">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jIg69LS0EeaMd6nCIZ9Vmg" x="40"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIg69bS0EeaMd6nCIZ9Vmg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIg69rS0EeaMd6nCIZ9Vmg" y="20" width="72" height="28"/>
+            </children>
+            <element xmi:type="uml:State" href="facebook.x.model.uml#_jByn47S0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIg68bS0EeaMd6nCIZ9Vmg" x="1020" y="28" width="72" height="48"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jIr6ELS0EeaMd6nCIZ9Vmg" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIr6ErS0EeaMd6nCIZ9Vmg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIz14LS0EeaMd6nCIZ9Vmg" width="48" height="20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIr6E7S0EeaMd6nCIZ9Vmg" type="19003">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jIr6FLS0EeaMd6nCIZ9Vmg" x="40"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jIr6FbS0EeaMd6nCIZ9Vmg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIr6FrS0EeaMd6nCIZ9Vmg" y="20" width="48" height="28"/>
+            </children>
+            <element xmi:type="uml:State" href="facebook.x.model.uml#_jByn5bS0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIr6EbS0EeaMd6nCIZ9Vmg" x="772" y="252" width="48" height="48"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jI1rELS0EeaMd6nCIZ9Vmg" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jI1rErS0EeaMd6nCIZ9Vmg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jI-N8LS0EeaMd6nCIZ9Vmg" width="120" height="20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jI1rE7S0EeaMd6nCIZ9Vmg" type="19003">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jI1rFLS0EeaMd6nCIZ9Vmg" x="40"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jI1rFbS0EeaMd6nCIZ9Vmg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jI1rFrS0EeaMd6nCIZ9Vmg" y="20" width="120" height="28"/>
+            </children>
+            <element xmi:type="uml:State" href="facebook.x.model.uml#_jByn4bS0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jI1rEbS0EeaMd6nCIZ9Vmg" x="484" y="28" width="120" height="48"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jJADILS0EeaMd6nCIZ9Vmg" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jJADIrS0EeaMd6nCIZ9Vmg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jJImALS0EeaMd6nCIZ9Vmg" width="80" height="20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jJADI7S0EeaMd6nCIZ9Vmg" type="19003">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jJADJLS0EeaMd6nCIZ9Vmg" x="40"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_jJADJbS0EeaMd6nCIZ9Vmg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jJADJrS0EeaMd6nCIZ9Vmg" y="20" width="80" height="28"/>
+            </children>
+            <element xmi:type="uml:State" href="facebook.x.model.uml#_jByn4LS0EeaMd6nCIZ9Vmg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jJADIbS0EeaMd6nCIZ9Vmg" x="244" y="28" width="80" height="48"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jH4Bw7S0EeaMd6nCIZ9Vmg"/>
+        </children>
+        <element xmi:type="uml:Region" href="facebook.x.model.uml#_jByA1LS0EeaMd6nCIZ9Vmg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jH4BwbS0EeaMd6nCIZ9Vmg" width="1272" height="359"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHxUFLS0EeaMd6nCIZ9Vmg" y="13" width="1272" height="359"/>
+    </children>
+    <element xmi:type="uml:StateMachine" href="facebook.x.model.uml#_jByA07S0EeaMd6nCIZ9Vmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHxUEbS0EeaMd6nCIZ9Vmg" width="1272" height="372"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_jG-C3bS0EeaMd6nCIZ9Vmg" name="diagram_compatibility_version" stringValue="1.1.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_jG-C3rS0EeaMd6nCIZ9Vmg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_jG-C37S0EeaMd6nCIZ9Vmg">
+    <owner xmi:type="uml:StateMachine" href="facebook.x.model.uml#_jByA07S0EeaMd6nCIZ9Vmg"/>
+  </styles>
+  <element xmi:type="uml:StateMachine" href="facebook.x.model.uml#_jByA07S0EeaMd6nCIZ9Vmg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_jJLCQLS0EeaMd6nCIZ9Vmg" type="7000" source="_jIK8sLS0EeaMd6nCIZ9Vmg" target="_jIV70LS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJLCQ7S0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJLCRLS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJLCRbS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJLCRrS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJLCR7S0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJLCSLS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJLCQbS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jBzO9LS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJLCQrS0EeaMd6nCIZ9Vmg" points="[0, 0, 0, -64]$[0, 64, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJLpULS0EeaMd6nCIZ9Vmg" id="(0.2222222238779068, 1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJLpUbS0EeaMd6nCIZ9Vmg" id="(0.30000001192092896, 0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jJRv8LS0EeaMd6nCIZ9Vmg" type="7000" source="_jJADILS0EeaMd6nCIZ9Vmg" target="_jI1rELS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJSXALS0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJSXAbS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJSXArS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJSXA7S0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJSXBLS0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJSXBbS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJRv8bS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jBzO8LS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJRv8rS0EeaMd6nCIZ9Vmg" points="[0, 0, -160, 0]$[160, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJSXBrS0EeaMd6nCIZ9Vmg" id="(1.0, 0.1666666716337204)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJSXB7S0EeaMd6nCIZ9Vmg" id="(0.0, 0.1666666716337204)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jJZrwLS0EeaMd6nCIZ9Vmg" type="7000" source="_jIBywLS0EeaMd6nCIZ9Vmg" target="_jJADILS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJZrw7S0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJZrxLS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJZrxbS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJZrxrS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJZrx7S0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJZryLS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJZrwbS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jByn5rS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJZrwrS0EeaMd6nCIZ9Vmg" points="[0, 0, -208, 0]$[208, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jKiUMLS0EeaMd6nCIZ9Vmg" id="(0.800000011920929, 0.4000000059604645)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJZrybS0EeaMd6nCIZ9Vmg" id="(0.0, 0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jJgZcLS0EeaMd6nCIZ9Vmg" type="7000" source="_jI1rELS0EeaMd6nCIZ9Vmg" target="_jIK8sLS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJgZc7S0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJgZdLS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJgZdbS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJgZdrS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJgZd7S0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJgZeLS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJgZcbS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jBzO8rS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJgZcrS0EeaMd6nCIZ9Vmg" points="[0, 0, -160, 0]$[160, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJhAgLS0EeaMd6nCIZ9Vmg" id="(1.0, 0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJhAgbS0EeaMd6nCIZ9Vmg" id="(0.0, 0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jJoVQLS0EeaMd6nCIZ9Vmg" type="7000" source="_jIV70LS0EeaMd6nCIZ9Vmg" target="_jIr6ELS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJoVQ7S0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJoVRLS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJoVRbS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJoVRrS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJoVR7S0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJoVSLS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJoVQbS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jBz2BLS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJoVQrS0EeaMd6nCIZ9Vmg" points="[0, 0, 0, -64]$[0, 64, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJoVSbS0EeaMd6nCIZ9Vmg" id="(0.6000000238418579, 1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJoVSrS0EeaMd6nCIZ9Vmg" id="(0.6666666865348816, 0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jJvqALS0EeaMd6nCIZ9Vmg" type="7000" source="_jIg68LS0EeaMd6nCIZ9Vmg" target="_jI1rELS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJvqA7S0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJvqBLS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJvqBbS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJvqBrS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJvqB7S0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJvqCLS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJvqAbS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jBz2ArS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJvqArS0EeaMd6nCIZ9Vmg" points="[0, 0, 432, 0]$[0, -8, 432, -8]$[-432, -8, 0, -8]$[-432, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJwRELS0EeaMd6nCIZ9Vmg" id="(0.1111111119389534, 0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJwREbS0EeaMd6nCIZ9Vmg" id="(0.9333333373069763, 0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jJ3l0LS0EeaMd6nCIZ9Vmg" type="7000" source="_jIK8sLS0EeaMd6nCIZ9Vmg" target="_jIg68LS0EeaMd6nCIZ9Vmg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJ3l07S0EeaMd6nCIZ9Vmg" visible="false" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJ3l1LS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJ3l1bS0EeaMd6nCIZ9Vmg" visible="false" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJ3l1rS0EeaMd6nCIZ9Vmg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jJ3l17S0EeaMd6nCIZ9Vmg" visible="false" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jJ3l2LS0EeaMd6nCIZ9Vmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jJ3l0bS0EeaMd6nCIZ9Vmg"/>
+    <element xmi:type="uml:Transition" href="facebook.x.model.uml#_jBz2ALS0EeaMd6nCIZ9Vmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jJ3l0rS0EeaMd6nCIZ9Vmg" points="[0, 0, -184, 0]$[184, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJ3l2bS0EeaMd6nCIZ9Vmg" id="(1.0, 0.6666666865348816)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jJ3l2rS0EeaMd6nCIZ9Vmg" id="(0.0, 0.6666666865348816)"/>
+  </edges>
+</notation:Diagram>

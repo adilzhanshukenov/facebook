@@ -1,0 +1,144 @@
+package facebook.x.model;
+
+
+
+class Profile {
+	String first_name;
+	String last_name;
+	String status;
+	String location;
+	int age;
+}
+
+class User {
+	int user_id;
+	String username;
+	String password;
+}
+
+signal Click {}
+signal PressEnter {}
+signal Successfull {}
+signal Unsuccessfull {}
+signal Wait {}
+class Login {
+	String date_of_login;
+	String login;
+	boolean valid;
+	initial Init;
+	
+	state User_authorize;
+	state Enter_username_pass;
+	state Valid_or_not;
+	state Login_failed;
+	state Login_success;
+	state Success;
+	
+	transition Click_Button {
+		from Init;
+		to User_authorize;
+	}
+	
+	transition Start_typing {
+		from User_authorize;
+		to Enter_username_pass;
+		trigger Click;
+	}
+	
+	transition Type {
+		from Enter_username_pass;
+		to Valid_or_not;
+		trigger PressEnter;
+	}
+	transition LoginSuccess {
+		from Valid_or_not;
+		to Login_success;
+		trigger Successfull;
+	}
+	transition LoginFailed {
+		from Valid_or_not;
+		to Login_failed;
+		trigger Unsuccessfull;
+	}
+	
+	transition TryAgain {
+		from Login_failed;
+		to Enter_username_pass;
+		trigger Wait;
+	}
+	
+	transition Successfull {
+		from Login_success;
+		to Success;
+		trigger Successfull;
+	}
+	
+	
+}
+
+
+class Post {
+	String description;
+	String post_content;
+}
+
+class Message {
+	String subject;
+	String message_content;
+	String sent_date;
+}
+
+class Comment {
+	String comment_content;
+}
+
+class Like {
+	
+}
+
+class Group extends User{
+	String group_name;
+	String description;
+}
+
+composition GroupHasUsers {
+	container Group group;
+	* Profile profile;
+}
+
+association profile_user {
+	1 Profile profile;
+	1 User user;
+}
+
+association user_sends_message {
+	1 User user;
+	* Message message;
+}
+
+association user_posts {
+	1 User user;
+	* Post post;
+}
+
+association user_comments {
+	1 User user;
+	* Comment comment;
+}
+
+association user_likes {
+	1 User user;
+	* Like like;
+}
+
+association user_logins {
+	1 User user;
+	1 Login login;
+}
+
+
+
+
+
+
+

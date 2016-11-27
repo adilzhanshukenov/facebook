@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_i_05ALS0EeaMd6nCIZ9Vmg" name="Facebook">
+    <packageImport xmi:id="_i_6YkLS0EeaMd6nCIZ9Vmg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://TXTUML_STDLIB/stdlib.uml#_DE5UMHLCEeWVx4ZuxFlarQ"/>
+    </packageImport>
+    <packageImport xmi:id="_jAHz8LS0EeaMd6nCIZ9Vmg">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBZmULS0EeaMd6nCIZ9Vmg" name="Group">
+      <generalization xmi:id="_jBaNYbS0EeaMd6nCIZ9Vmg" general="_jBnowLS0EeaMd6nCIZ9Vmg"/>
+      <ownedAttribute xmi:id="_jBZmUbS0EeaMd6nCIZ9Vmg" name="description" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBZmUrS0EeaMd6nCIZ9Vmg" name="group_name" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jB8_8LS0EeaMd6nCIZ9Vmg" name="profile" type="_jBiwQLS0EeaMd6nCIZ9Vmg" aggregation="composite" association="_jB8Y4LS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB8_8bS0EeaMd6nCIZ9Vmg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB8_8rS0EeaMd6nCIZ9Vmg" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBZmU7S0EeaMd6nCIZ9Vmg" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBcCkLS0EeaMd6nCIZ9Vmg" name="Post">
+      <ownedAttribute xmi:id="_jBcCkbS0EeaMd6nCIZ9Vmg" name="description" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBcCkrS0EeaMd6nCIZ9Vmg" name="post_content" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBee0bS0EeaMd6nCIZ9Vmg" name="user" type="_jBnowLS0EeaMd6nCIZ9Vmg" association="_jBee0LS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBfF4LS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBfF4bS0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBcCk7S0EeaMd6nCIZ9Vmg" name="Post"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBee0LS0EeaMd6nCIZ9Vmg" name="user_posts" memberEnd="_jBee0bS0EeaMd6nCIZ9Vmg _jBnowbS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_jBgUALS0EeaMd6nCIZ9Vmg" name="PressEnter"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_jBgUAbS0EeaMd6nCIZ9Vmg" name="PressEnter" signal="_jBgUALS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBg7ELS0EeaMd6nCIZ9Vmg" name="#PressEnter_factory">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_jBg7FLS0EeaMd6nCIZ9Vmg" name="PressEnter" specification="_jBg7EbS0EeaMd6nCIZ9Vmg"/>
+      <ownedOperation xmi:id="_jBg7EbS0EeaMd6nCIZ9Vmg" name="PressEnter" isStatic="true" method="_jBg7FLS0EeaMd6nCIZ9Vmg">
+        <ownedParameter xmi:id="_jBg7E7S0EeaMd6nCIZ9Vmg" name="signal" type="_jBgUALS0EeaMd6nCIZ9Vmg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBiwQLS0EeaMd6nCIZ9Vmg" name="Profile">
+      <ownedAttribute xmi:id="_jBiwQbS0EeaMd6nCIZ9Vmg" name="age" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBiwQrS0EeaMd6nCIZ9Vmg" name="first_name" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBiwQ7S0EeaMd6nCIZ9Vmg" name="last_name" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBiwRLS0EeaMd6nCIZ9Vmg" name="location" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBiwRbS0EeaMd6nCIZ9Vmg" name="status" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jB25UrS0EeaMd6nCIZ9Vmg" name="user" type="_jBnowLS0EeaMd6nCIZ9Vmg" association="_jB2SQLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB25U7S0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB25VLS0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jB8Y4bS0EeaMd6nCIZ9Vmg" name="group" type="_jBZmULS0EeaMd6nCIZ9Vmg" association="_jB8Y4LS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB8Y4rS0EeaMd6nCIZ9Vmg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB8Y47S0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBjXULS0EeaMd6nCIZ9Vmg" name="Profile"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBlMgLS0EeaMd6nCIZ9Vmg" name="Message">
+      <ownedAttribute xmi:id="_jBlMgbS0EeaMd6nCIZ9Vmg" name="message_content" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBlMgrS0EeaMd6nCIZ9Vmg" name="sent_date" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBlMg7S0EeaMd6nCIZ9Vmg" name="subject" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jCGw8bS0EeaMd6nCIZ9Vmg" name="user" type="_jBnowLS0EeaMd6nCIZ9Vmg" association="_jCGw8LS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCHYALS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCHYAbS0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBlMhLS0EeaMd6nCIZ9Vmg" name="Message"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBnowLS0EeaMd6nCIZ9Vmg" name="User">
+      <ownedAttribute xmi:id="_jBnowbS0EeaMd6nCIZ9Vmg" name="post" type="_jBcCkLS0EeaMd6nCIZ9Vmg" association="_jBee0LS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBnowrS0EeaMd6nCIZ9Vmg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBnow7S0EeaMd6nCIZ9Vmg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBnoxLS0EeaMd6nCIZ9Vmg" name="password" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBnoxbS0EeaMd6nCIZ9Vmg" name="user_id" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBnoxrS0EeaMd6nCIZ9Vmg" name="username" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBuWcLS0EeaMd6nCIZ9Vmg" name="comment" type="_jBpd8LS0EeaMd6nCIZ9Vmg" association="_jBtvYLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBuWcbS0EeaMd6nCIZ9Vmg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBuWcrS0EeaMd6nCIZ9Vmg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jB2SQbS0EeaMd6nCIZ9Vmg" name="profile" type="_jBiwQLS0EeaMd6nCIZ9Vmg" association="_jB2SQLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB25ULS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB25UbS0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jB5VlLS0EeaMd6nCIZ9Vmg" name="login" type="_jBxZwLS0EeaMd6nCIZ9Vmg" association="_jB5VkLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB5VlbS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB58oLS0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jCB4c7S0EeaMd6nCIZ9Vmg" name="like" type="_jBqsELS0EeaMd6nCIZ9Vmg" association="_jCBRYLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCB4dLS0EeaMd6nCIZ9Vmg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCB4dbS0EeaMd6nCIZ9Vmg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jCHYArS0EeaMd6nCIZ9Vmg" name="message" type="_jBlMgLS0EeaMd6nCIZ9Vmg" association="_jCGw8LS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCHYA7S0EeaMd6nCIZ9Vmg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCHYBLS0EeaMd6nCIZ9Vmg" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBnox7S0EeaMd6nCIZ9Vmg" name="User"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBpd8LS0EeaMd6nCIZ9Vmg" name="Comment">
+      <ownedAttribute xmi:id="_jBpd8bS0EeaMd6nCIZ9Vmg" name="comment_content" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBtvYbS0EeaMd6nCIZ9Vmg" name="user" type="_jBnowLS0EeaMd6nCIZ9Vmg" association="_jBtvYLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBtvYrS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBtvY7S0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBpd8rS0EeaMd6nCIZ9Vmg" name="Comment"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBqsELS0EeaMd6nCIZ9Vmg" name="Like">
+      <ownedAttribute xmi:id="_jCB4cLS0EeaMd6nCIZ9Vmg" name="user" type="_jBnowLS0EeaMd6nCIZ9Vmg" association="_jCBRYLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCB4cbS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCB4crS0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jBrTILS0EeaMd6nCIZ9Vmg" name="Like"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBtvYLS0EeaMd6nCIZ9Vmg" name="user_comments" memberEnd="_jBtvYbS0EeaMd6nCIZ9Vmg _jBuWcLS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jBxZwLS0EeaMd6nCIZ9Vmg" name="Login" classifierBehavior="_jByA07S0EeaMd6nCIZ9Vmg">
+      <ownedAttribute xmi:id="_jBxZwbS0EeaMd6nCIZ9Vmg" name="date_of_login" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jBxZwrS0EeaMd6nCIZ9Vmg" name="login" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jByA0LS0EeaMd6nCIZ9Vmg" name="valid" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jB5VkbS0EeaMd6nCIZ9Vmg" name="user" type="_jBnowLS0EeaMd6nCIZ9Vmg" association="_jB5VkLS0EeaMd6nCIZ9Vmg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB5VkrS0EeaMd6nCIZ9Vmg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB5Vk7S0EeaMd6nCIZ9Vmg" value="1"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_jByA07S0EeaMd6nCIZ9Vmg" name="Login">
+        <region xmi:id="_jByA1LS0EeaMd6nCIZ9Vmg" name="Login">
+          <transition xmi:id="_jByn5rS0EeaMd6nCIZ9Vmg" name="Click_Button" source="_jByA1bS0EeaMd6nCIZ9Vmg" target="_jByn4LS0EeaMd6nCIZ9Vmg"/>
+          <transition xmi:id="_jBzO8LS0EeaMd6nCIZ9Vmg" name="Start_typing" source="_jByn4LS0EeaMd6nCIZ9Vmg" target="_jByn4bS0EeaMd6nCIZ9Vmg">
+            <trigger xmi:id="_jBzO8bS0EeaMd6nCIZ9Vmg" name="null_trigger" event="_jB-OEbS0EeaMd6nCIZ9Vmg"/>
+          </transition>
+          <transition xmi:id="_jBzO8rS0EeaMd6nCIZ9Vmg" name="Type" source="_jByn4bS0EeaMd6nCIZ9Vmg" target="_jByn4rS0EeaMd6nCIZ9Vmg">
+            <trigger xmi:id="_jBzO87S0EeaMd6nCIZ9Vmg" name="PressEnter_trigger" event="_jBgUAbS0EeaMd6nCIZ9Vmg"/>
+          </transition>
+          <transition xmi:id="_jBzO9LS0EeaMd6nCIZ9Vmg" name="LoginSuccess" source="_jByn4rS0EeaMd6nCIZ9Vmg" target="_jByn5LS0EeaMd6nCIZ9Vmg">
+            <trigger xmi:id="_jBzO9bS0EeaMd6nCIZ9Vmg" name="null_trigger" event="_jCImIbS0EeaMd6nCIZ9Vmg"/>
+          </transition>
+          <transition xmi:id="_jBz2ALS0EeaMd6nCIZ9Vmg" name="LoginFailed" source="_jByn4rS0EeaMd6nCIZ9Vmg" target="_jByn47S0EeaMd6nCIZ9Vmg">
+            <trigger xmi:id="_jBz2AbS0EeaMd6nCIZ9Vmg" name="null_trigger" event="_jCLCYbS0EeaMd6nCIZ9Vmg"/>
+          </transition>
+          <transition xmi:id="_jBz2ArS0EeaMd6nCIZ9Vmg" name="TryAgain" source="_jByn47S0EeaMd6nCIZ9Vmg" target="_jByn4bS0EeaMd6nCIZ9Vmg">
+            <trigger xmi:id="_jBz2A7S0EeaMd6nCIZ9Vmg" name="null_trigger" event="_jCDtobS0EeaMd6nCIZ9Vmg"/>
+          </transition>
+          <transition xmi:id="_jBz2BLS0EeaMd6nCIZ9Vmg" name="Successfull" source="_jByn5LS0EeaMd6nCIZ9Vmg" target="_jByn5bS0EeaMd6nCIZ9Vmg">
+            <trigger xmi:id="_jBz2BbS0EeaMd6nCIZ9Vmg" name="null_trigger" event="_jCImIbS0EeaMd6nCIZ9Vmg"/>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_jByA1bS0EeaMd6nCIZ9Vmg" name="Init"/>
+          <subvertex xmi:type="uml:State" xmi:id="_jByn4LS0EeaMd6nCIZ9Vmg" name="User_authorize"/>
+          <subvertex xmi:type="uml:State" xmi:id="_jByn4bS0EeaMd6nCIZ9Vmg" name="Enter_username_pass"/>
+          <subvertex xmi:type="uml:State" xmi:id="_jByn4rS0EeaMd6nCIZ9Vmg" name="Valid_or_not"/>
+          <subvertex xmi:type="uml:State" xmi:id="_jByn47S0EeaMd6nCIZ9Vmg" name="Login_failed"/>
+          <subvertex xmi:type="uml:State" xmi:id="_jByn5LS0EeaMd6nCIZ9Vmg" name="Login_success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_jByn5bS0EeaMd6nCIZ9Vmg" name="Success"/>
+        </region>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jByA0bS0EeaMd6nCIZ9Vmg" name="Login"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jB2SQLS0EeaMd6nCIZ9Vmg" name="profile_user" memberEnd="_jB2SQbS0EeaMd6nCIZ9Vmg _jB25UrS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jB5VkLS0EeaMd6nCIZ9Vmg" name="user_logins" memberEnd="_jB5VkbS0EeaMd6nCIZ9Vmg _jB5VlLS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jB8Y4LS0EeaMd6nCIZ9Vmg" name="GroupHasUsers" memberEnd="_jB8Y4bS0EeaMd6nCIZ9Vmg _jB8_8LS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_jB-OELS0EeaMd6nCIZ9Vmg" name="Click"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_jB-OEbS0EeaMd6nCIZ9Vmg" name="Click" signal="_jB-OELS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jB-OErS0EeaMd6nCIZ9Vmg" name="#Click_factory">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_jB-1IrS0EeaMd6nCIZ9Vmg" name="Click" specification="_jB-OE7S0EeaMd6nCIZ9Vmg"/>
+      <ownedOperation xmi:id="_jB-OE7S0EeaMd6nCIZ9Vmg" name="Click" isStatic="true" method="_jB-1IrS0EeaMd6nCIZ9Vmg">
+        <ownedParameter xmi:id="_jB-1IbS0EeaMd6nCIZ9Vmg" name="signal" type="_jB-OELS0EeaMd6nCIZ9Vmg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCBRYLS0EeaMd6nCIZ9Vmg" name="user_likes" memberEnd="_jCB4cLS0EeaMd6nCIZ9Vmg _jCB4c7S0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_jCDtoLS0EeaMd6nCIZ9Vmg" name="Wait"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_jCDtobS0EeaMd6nCIZ9Vmg" name="Wait" signal="_jCDtoLS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jCDtorS0EeaMd6nCIZ9Vmg" name="#Wait_factory">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_jCEUsbS0EeaMd6nCIZ9Vmg" name="Wait" specification="_jCDto7S0EeaMd6nCIZ9Vmg"/>
+      <ownedOperation xmi:id="_jCDto7S0EeaMd6nCIZ9Vmg" name="Wait" isStatic="true" method="_jCEUsbS0EeaMd6nCIZ9Vmg">
+        <ownedParameter xmi:id="_jCEUsLS0EeaMd6nCIZ9Vmg" name="signal" type="_jCDtoLS0EeaMd6nCIZ9Vmg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCGw8LS0EeaMd6nCIZ9Vmg" name="user_sends_message" memberEnd="_jCGw8bS0EeaMd6nCIZ9Vmg _jCHYArS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_jCImILS0EeaMd6nCIZ9Vmg" name="Successfull"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_jCImIbS0EeaMd6nCIZ9Vmg" name="Successfull" signal="_jCImILS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jCImIrS0EeaMd6nCIZ9Vmg" name="#Successfull_factory">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_jCJNM7S0EeaMd6nCIZ9Vmg" name="Successfull" specification="_jCJNMLS0EeaMd6nCIZ9Vmg"/>
+      <ownedOperation xmi:id="_jCJNMLS0EeaMd6nCIZ9Vmg" name="Successfull" isStatic="true" method="_jCJNM7S0EeaMd6nCIZ9Vmg">
+        <ownedParameter xmi:id="_jCJNMrS0EeaMd6nCIZ9Vmg" name="signal" type="_jCImILS0EeaMd6nCIZ9Vmg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_jCLCYLS0EeaMd6nCIZ9Vmg" name="Unsuccessfull"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_jCLCYbS0EeaMd6nCIZ9Vmg" name="Unsuccessfull" signal="_jCLCYLS0EeaMd6nCIZ9Vmg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jCLCYrS0EeaMd6nCIZ9Vmg" name="#Unsuccessfull_factory">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_jCLpcbS0EeaMd6nCIZ9Vmg" name="Unsuccessfull" specification="_jCLCY7S0EeaMd6nCIZ9Vmg"/>
+      <ownedOperation xmi:id="_jCLCY7S0EeaMd6nCIZ9Vmg" name="Unsuccessfull" isStatic="true" method="_jCLpcbS0EeaMd6nCIZ9Vmg">
+        <ownedParameter xmi:id="_jCLpcLS0EeaMd6nCIZ9Vmg" name="signal" type="_jCLCYLS0EeaMd6nCIZ9Vmg"/>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_jAHz8bS0EeaMd6nCIZ9Vmg">
+      <eAnnotations xmi:id="_jAHz8rS0EeaMd6nCIZ9Vmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Create xmi:id="_jBaNYLS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBZmU7S0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBcClLS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBcCk7S0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBg7ErS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBg7EbS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBjXUbS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBjXULS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBlMhbS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBlMhLS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBnoyLS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBnox7S0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBpd87S0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBpd8rS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jBrTIbS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jBrTILS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jByA0rS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jByA0bS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jB-1ILS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jB-OE7S0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jCDtpLS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jCDto7S0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jCJNMbS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jCJNMLS0EeaMd6nCIZ9Vmg"/>
+  <standard:Create xmi:id="_jCLCZLS0EeaMd6nCIZ9Vmg" base_BehavioralFeature="_jCLCY7S0EeaMd6nCIZ9Vmg"/>
+</xmi:XMI>
